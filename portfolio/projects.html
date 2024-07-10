@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rahul Veggilam's notable projects in data science and machine learning.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for underlining project names */
+        .project h3 {
+            display: inline;
+        }
+
+        .project h3 span {
+            text-decoration: underline;
+            padding-right: 5px; /* Adjust spacing between words if needed */
+        }
+
+        /* Center-align text in the projects content */
+        .projects-content {
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .projects-content h1, .projects-content h2 {
+            text-align: center;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #cecfcd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-content {
+            flex: 1;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        .project-image {
+            flex: 1;
+        }
+
+        .project-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 40px 0;
+        }
+    </style>
+    <title>Projects - Rahul Veggilam</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="square"></span>Rahul Veggilam<span class="slash"></span>
+        </div>
+        <nav>
+            <a href="index.html">ABOUT ME</a>
+            <a href="resume.html">RESUME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <div class="projects-content">
+        <h1>Projects</h1>
+        <h2>Here are some of my notable projects:</h2>
+
+        <section class="project">
+            <div class="project-content">
+                <h3><span>Neural</span> <span>Network</span> <span>Ahoy:</span> <span>Cutting</span> <span>Edge</span> <span>Ship</span> <span>Classification</span> <span>for</span> <span>Maritime</span> <span>Mastery</span></h3>
+                <p>This project was part of my externship with SmartInternz and Google Developers. The goal was to develop a neural network model to classify different types of ships for maritime applications.</p>
+                <p><strong>Technologies used:</strong> Python, TensorFlow, Keras, OpenCV</p>
+            </div>
+            <div class="project-image">
+                <img src="ship.jpg" alt="Neural Network Ahoy Project">
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-content">
+                <h3><span>Data</span> <span>Visualization</span> <span>Dashboard</span></h3>
+                <p>Created an interactive data visualization dashboard using Tableau to showcase sales performance metrics for a retail company. The dashboard includes key performance indicators (KPIs), trends, and insights to help the management team make informed decisions.</p>
+                <p><strong>Technologies used:</strong> Tableau, SQL</p>
+            </div>
+            <div class="project-image">
+                <img src="data.jpg" alt="Data Visualization Dashboard Project">
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-content">
+                <h3><span>Customer</span> <span>Churn</span> <span>Prediction</span></h3>
+                <p>Developed a machine learning model to predict customer churn for a telecommunications company. The project involved data cleaning, feature engineering, model training, and evaluation.</p>
+                <p><strong>Technologies used:</strong> Python, Scikit-learn, Pandas</p>
+            </div>
+            <div class="project-image">
+                <img src="churn.png" alt="Customer Churn Prediction Project">
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-content">
+                <h3><span>Market</span> <span>Basket</span> <span>Analysis</span></h3>
+                <p>Conducted a market basket analysis to identify frequently purchased item sets in a retail store. The results were used to optimize product placement and marketing strategies.</p>
+                <p><strong>Technologies used:</strong> Python, Apriori algorithm, Pandas</p>
+            </div>
+            <div class="project-image">
+                <img src="market.jpeg" alt="Market Basket Analysis Project">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
